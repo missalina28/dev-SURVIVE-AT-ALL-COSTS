@@ -1,0 +1,51 @@
+.description {
+    background: url(assets/img/bg-discription.jpg) center/cover no-repeat;
+    min-height: 961px;
+    .carousel-indicators {
+        bottom: -88px;
+    }
+    .carousel-inner {
+        padding-top: 190px;
+        padding-left: 120px;
+        padding-right: 120px;
+        .carousel-item{
+            position: relative;
+            .carousel-caption {
+                max-width: 450px;
+                left: 850px;
+                bottom: 60px;;
+                text-align: end;
+                h6 {
+                    font-size: 24px;
+                    font-family: 'BebasNeue';
+                    font-weight: 700;
+                    color: #FFFFFF;
+
+                }
+                h3 {
+                    font-size: 80px;
+                    font-family: 'BebasNeue';
+                    font-weight: 700;
+                    color: #FFFFFF;
+                    border-bottom: 2px solid #FFFFFF;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: 'OpenSans';
+                    font-weight: 400;
+                    color: #FFFFFF;
+
+                }
+            }
+            img {
+                margin-left: 130px;
+                width: 502px;
+                height: 610px;
+                border-radius: 25px;
+            }
+
+        }
+    
+    }
+    
+}
