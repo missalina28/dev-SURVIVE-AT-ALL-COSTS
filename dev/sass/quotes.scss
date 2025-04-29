@@ -1,0 +1,106 @@
+.quotes {
+    height: 960px;
+    background: url(assets/img/bg-quotes.png) center/cover no-repeat;
+    .container {
+        padding-top: 159px;
+        padding-bottom: 147px;
+        .quotes-grid {
+            display: flex;
+            gap: 167px;
+            
+            .quotes-text {
+                margin-top: auto;
+                margin-bottom: auto;
+                max-width: 435px;
+                p {
+                    font-family: 'OpenSans';
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    margin-bottom: 45px;
+                }
+                .quotes-btn {
+                    text-decoration: none;
+                    font-family: 'OpenSans';
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #1A1917;
+                    background-color: #FFB548;
+                    border-radius: 4px;
+                    padding: 20px 30px;
+                    
+                    &:hover {
+                        background-color: #e19016;
+                    }
+                }
+
+            }
+            .quotes-flex {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .quotes-card {
+                width: 492px;  
+                background-color: #191b1a;
+                border-radius: 10px;
+                padding: 15px 20px 20px 16px;
+                min-height: 205px;
+                &:first-child {
+                    margin-left: 175px;
+                }
+                &:last-child {
+                    margin-left: 150px;
+                }
+                .quotes-info {
+                    display: flex;
+                    gap: 30px;
+                    margin-bottom: 26px;
+                    align-items: center;
+                    &::after {
+                        content: '';
+                        background: url(assets/img/twiiter.png) center/contain no-repeat;
+                        width: 18px;
+                        height: 14px;
+                        margin-left: auto;
+                    }
+                    img {
+                        width: 62px;
+                        height: 62px;
+                    }
+                }
+                
+                .quotes-name {
+                    h5 {
+                        font-family: 'BebasNeue';
+                        font-size: 24px;
+                        font-weight: 700;
+                        color: #FFB548;
+                        margin: 0;
+                    }
+                    h4 {
+                        font-family: 'OpenSans';
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #FFFFFF;
+                    }
+                }
+                .quotes-item {
+                    font-family: 'OpenSans';
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    margin-bottom: 25px;
+
+                }
+                .quotes-data {
+                    font-family: 'OpenSans';
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #6f6f6f;
+                }
+
+            }
+        } 
+        }
+    }
+}
