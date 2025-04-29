@@ -1,0 +1,45 @@
+.requirements {
+    background: url(assets/img/bg-requirements.png) center/cover no-repeat;
+    .container {
+        max-width: 1440px;
+        padding: 145px 120px;
+        .heading{
+            text-align: center;
+            margin-bottom: 135px;
+        }
+        .table-req {
+            max-width: 575px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            border: 0.5px solid #979797;
+            & >:last-child {
+                grid-column: span 2;
+            }
+            .req-list {
+                list-style: none;
+                border: 0.5px solid #979797;
+                padding: 0;
+                margin: 0;
+                
+            }
+            
+            .req-item-head {
+                font-family: 'BebasNeue';
+                font-weight: 700;
+                font-size: 24px;
+                color: #FFB548;
+                margin: 15px 0 8px 20px;
+            }
+            .req-item {
+                font-family: 'Opensans';
+                font-size: 18px;
+                font-weight: 400;
+                color: #FFFFFF;
+                margin-left: 20px;
+                margin-bottom: 30px;
+            }
+           
+        }
+    }
+}
