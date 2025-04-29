@@ -3,6 +3,17 @@
     min-height: 961px;
     .carousel-indicators {
         bottom: -88px;
+        gap: 52px;
+        button {
+            border: 2px solid #FFFFFF;
+            background-color: transparent;
+            width: 14px;
+            height: 14px;
+            border-radius: 50px;
+
+        }
+    
+
     }
     .carousel-inner {
         padding-top: 190px;
@@ -10,16 +21,24 @@
         padding-right: 120px;
         .carousel-item{
             position: relative;
+            .carousel-flex {
+                display: grid;
+                grid-template-columns: 1.5fr 1fr;
+                gap: 28px;
+                padding: 0 40px 0 40px;
+            }
             .carousel-caption {
-                max-width: 450px;
-                left: 850px;
-                bottom: 60px;;
-                text-align: end;
+                position: static;
+                max-width: 600px;
+                min-width: 450px;
+                
                 h6 {
                     font-size: 24px;
                     font-family: 'BebasNeue';
                     font-weight: 700;
                     color: #FFFFFF;
+                    text-align: start;
+                    letter-spacing: 2px;
 
                 }
                 h3 {
@@ -28,19 +47,44 @@
                     font-weight: 700;
                     color: #FFFFFF;
                     border-bottom: 2px solid #FFFFFF;
+                    text-align: start;
+                    margin-bottom: 60px;
+                    line-height:80px;
+                    letter-spacing: 3px;
                 }
                 p {
                     font-size: 18px;
                     font-family: 'OpenSans';
                     font-weight: 400;
                     color: #FFFFFF;
+                    text-align: end;
+                    max-width: 365px;
+                    margin-left: auto;
+                    span {
+                        position: relative;
+                        z-index: 100;
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 120px;
+                            height: 7px;
+                            background-color: #FFB548;
+                            bottom: 0;
+                            left: 0;
+                            z-index: -1;
+                            
+
+                        }
+                        
+                    }
 
                 }
             }
             img {
-                margin-left: 130px;
-                width: 502px;
-                height: 610px;
+                width: 100%;
+                height: auto;
+                max-width: 502px;
+                max-height: 610px;
                 border-radius: 25px;
             }
 
