@@ -12,6 +12,9 @@ Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, feat
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+main {
+  background-color: #080A0B;
+}
 main section {
   height: 960px;
   max-width: 100%;
@@ -769,6 +772,31 @@ footer .container .footer-info .privacy .link-border {
   }
   .special .special-column .accordion-special .accordion .accordion-header .accordion-body {
     font-size: 14px;
+  }
+  .requirements {
+    height: 630px;
+    background: url(assets/img/bg-requirements-mb.png) center/cover no-repeat;
+  }
+  .requirements .container {
+    padding: 1px 10px;
+    margin-top: 90px;
+  }
+  .requirements .container .heading {
+    margin-bottom: 45px;
+  }
+  .requirements .container .heading h2 {
+    font-size: 18px;
+  }
+  .requirements .container .heading h1 {
+    font-size: 33px;
+  }
+  .requirements .container .table-req .req-list .req-item-head {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .requirements .container .table-req .req-list .req-item {
+    font-size: 14px;
+    margin: 0 10px 10px 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

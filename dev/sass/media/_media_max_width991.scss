@@ -158,6 +158,7 @@
         
     }
     .special {
+        
         height: 515px;
         padding-right: 0;
         .special-column {
@@ -188,6 +189,38 @@
             }
         }
     }
-    
+    .requirements {
+        height: 630px;
+        background: url(assets/img/bg-requirements-mb.png) center/cover no-repeat;
+        
+        .container {
+            padding: 1px 10px;
+            margin-top: 90px;
+            .heading {
+                margin-bottom: 45px;
+                h2 {
+                    font-size: 18px;
+                }
+                h1{
+                    font-size: 33px;
+                }
+            }
+            .table-req {
+                .req-list {
+                    .req-item-head {
+                        font-size: 18px;
+                        margin: 10px;
+
+                    }
+                    .req-item {
+                        font-size: 14px;
+                        margin: 0 10px 10px 10px;
+
+                    }
+                }
+
+            }
+        }
+    }
     
 }
