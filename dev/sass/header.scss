@@ -1,11 +1,39 @@
 header{
-	background-color: bisque;
 	font-family: 'OpenSans';
 	font-weight: 700;
+	font-size: 12px;
 	
 	.container {
 		max-width: 1440px;
 		padding: 50px 50px;
+		.navbar-toggler {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+			
+			&:hover .navbar-toggler-icon {
+				background-color: #FFB548;
+			}
+			&:focus-visible {
+				outline: none;
+			}
+			&:focus {
+				border: 0;
+				box-shadow: none;			}
+			.navbar-toggler-icon {
+				width: 24px;
+				height: 3px;
+				background-color: #FFFFFF;
+				border-radius: 3px;
+				&:focus-visible {
+					outline: none;
+				}
+				&:last-child {
+					width: 15px;
+					margin-left: auto;
+				}
+			}
+		}
 		.navbar-brand {
 			img {
 				width: 55px;
@@ -31,6 +59,7 @@ header{
 		.navbar-nav-second {
 			gap: 17px;
 			margin-right: 0;
+			align-items: center;
 			.nav-item-language {
 				margin-right: 30px;
 				position: relative;
@@ -63,7 +92,6 @@ header{
 							background-color: #000000BF;
 							
 						}
-						
 					}
 				}
 				
