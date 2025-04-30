@@ -747,5 +747,28 @@ footer .container .footer-info .privacy .link-border {
   .description .carousel-inner .carousel-item .carousel-flex .carousel-caption p span::after {
     width: 94px;
   }
+  .special {
+    height: 515px;
+    padding-right: 0;
+  }
+  .special .special-column .special-head {
+    padding-left: 105px;
+  }
+  .special .special-column .special-head h2 {
+    font-size: 18px;
+  }
+  .special .special-column .special-head h1 {
+    font-size: 33px;
+  }
+  .special .special-column .accordion-special .accordion {
+    max-width: 300px;
+    margin-left: auto;
+  }
+  .special .special-column .accordion-special .accordion .accordion-header .accordion-button {
+    font-size: 21px;
+  }
+  .special .special-column .accordion-special .accordion .accordion-header .accordion-body {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

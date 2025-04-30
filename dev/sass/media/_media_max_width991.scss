@@ -157,6 +157,37 @@
         }
         
     }
+    .special {
+        height: 515px;
+        padding-right: 0;
+        .special-column {
+            .special-head {
+                padding-left: 105px;
+                h2{
+                    font-size: 18px;
+
+                }
+                h1{
+                    font-size: 33px;
+
+                }
+            }
+            .accordion-special {
+                .accordion {
+                    max-width: 300px;
+                    margin-left: auto;
+                    .accordion-header {
+                        .accordion-button {
+                            font-size: 21px;
+                        }
+                        .accordion-body {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     
     
 }
