@@ -2,10 +2,17 @@
     header{
         .container {
             padding: 20px 15px;
+            .navbar-brand {
+                img {
+                width: 33px;
+                height: 33px;
+                }
+            }
             .navbar-nav {
-                align-items: center;
+                align-items: end;
+                margin-right: 25px;
                 gap: 20px;
-                margin-top: 5px;
+                margin-top: 0;
                 .nav-link {
                     &:hover {
                         color: #FFB548;
@@ -56,6 +63,38 @@
             width: 100%;
         }
         
+    }
+    .buy {
+        margin-top: -101px;
+        height: 670px;
+        padding-top: 295px;
+
+        .heading {
+            h1 {
+                font-size: 33px;
+            }
+            h2 {
+                font-size: 18px;
+                padding-bottom: 110px;
+            }
+        }
+        .btn-steam-list {
+            font-size: 14px;
+            gap: 35px;
+            padding: 13px 17px;
+            margin-bottom: 42px;
+            .btn-item {
+                &::after {
+                    right: -18px;
+                }
+            }
+            
+        }
+        .arrow-story {
+            h6 {
+                font-size: 12px;
+            }
+        }
     }
     
     
