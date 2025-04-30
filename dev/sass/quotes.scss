@@ -8,10 +8,12 @@
             display: flex;
             gap: 167px;
             
+            
             .quotes-text {
                 margin-top: auto;
                 margin-bottom: auto;
                 max-width: 435px;
+                min-width: 300px;
                 p {
                     font-family: 'OpenSans';
                     font-size: 18px;
@@ -28,6 +30,7 @@
                     background-color: #FFB548;
                     border-radius: 4px;
                     padding: 20px 30px;
+                    width: 100%;;
                     
                     &:hover {
                         background-color: #e19016;

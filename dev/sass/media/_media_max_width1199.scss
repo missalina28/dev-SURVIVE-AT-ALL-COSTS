@@ -1,3 +1,46 @@
 @media screen and (max-width: 1199px) {
+    .quotes {
+        .container {
+            .quotes-grid {
+                gap: 100px;
+                align-items: center;
+                .quotes-flex {
+                    gap: 30px;
+                    .quotes-card {
+                    width: 300px;  
+                    padding: 10px 10px 16px 10px;
+                    min-height: 145px;
+                    .quotes-info {
+                        gap: 15px;
+                        margin-bottom: 15px;
+                        img {
+                            width: 42px;
+                            height: 42px;
+                        }
+                        .quotes-name {
+                            h5 {
+                                font-size: 18px;
+                            }
+                            h4 {
+
+                                font-size: 14px;
+                    
+                            }
+                        }
+                    }
+                    .quotes-item {
+                        font-size: 14px;
+                        margin-bottom: 15px;
+    
+                    }
+                }
+            }
+                
+            }
+            .quotes-text {
+
+            }
+        }
+    }
     
 }

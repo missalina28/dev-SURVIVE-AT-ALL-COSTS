@@ -301,6 +301,8 @@ header .container .navbar-nav-second .nav-item-language .dropdown-menu .dropdown
   max-width: 502px;
   max-height: 610px;
   border-radius: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .special {
@@ -416,6 +418,7 @@ header .container .navbar-nav-second .nav-item-language .dropdown-menu .dropdown
   margin-top: auto;
   margin-bottom: auto;
   max-width: 435px;
+  min-width: 300px;
 }
 .quotes .container .quotes-grid .quotes-text p {
   font-family: "OpenSans";
@@ -433,6 +436,7 @@ header .container .navbar-nav-second .nav-item-language .dropdown-menu .dropdown
   background-color: #FFB548;
   border-radius: 4px;
   padding: 20px 30px;
+  width: 100%;
 }
 .quotes .container .quotes-grid .quotes-text .quotes-btn:hover {
   background-color: #e19016;
@@ -622,6 +626,38 @@ footer .container .footer-info .privacy .link-border {
     display: none;
   }
 }
+@media screen and (max-width: 1199px) {
+  .quotes .container .quotes-grid {
+    gap: 100px;
+    align-items: center;
+  }
+  .quotes .container .quotes-grid .quotes-flex {
+    gap: 30px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card {
+    width: 300px;
+    padding: 10px 10px 16px 10px;
+    min-height: 145px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info {
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info img {
+    width: 42px;
+    height: 42px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info .quotes-name h5 {
+    font-size: 18px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info .quotes-name h4 {
+    font-size: 14px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-item {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
 @media screen and (max-width: 991.98px) {
   header .container {
     padding: 20px 15px;
@@ -751,44 +787,41 @@ footer .container .footer-info .privacy .link-border {
     width: 94px;
   }
   .special {
-    height: 515px;
-    padding-right: 0;
+    min-height: 515px;
+    padding-right: 25px;
   }
   .special .special-column .special-head {
-    padding-left: 105px;
+    padding-left: 9px;
   }
   .special .special-column .special-head h2 {
-    font-size: 18px;
+    font-size: 21px;
   }
   .special .special-column .special-head h1 {
-    font-size: 33px;
+    font-size: 80px;
   }
   .special .special-column .accordion-special .accordion {
     max-width: 300px;
     margin-left: auto;
   }
   .special .special-column .accordion-special .accordion .accordion-header .accordion-button {
-    font-size: 21px;
+    font-size: 33px;
   }
-  .special .special-column .accordion-special .accordion .accordion-header .accordion-body {
-    font-size: 14px;
-  }
-  .requirements {
-    height: 630px;
-    background: url(assets/img/bg-requirements-mb.png) center/cover no-repeat;
+  .special .special-column .accordion-special .accordion .accordion-body {
+    font-size: 18px;
   }
   .requirements .container {
-    padding: 1px 10px;
-    margin-top: 90px;
+    padding: 80px 15px;
   }
   .requirements .container .heading {
     margin-bottom: 45px;
   }
   .requirements .container .heading h2 {
     font-size: 18px;
+    letter-spacing: 2px;
   }
   .requirements .container .heading h1 {
     font-size: 33px;
+    letter-spacing: 3px;
   }
   .requirements .container .table-req .req-list .req-item-head {
     font-size: 18px;
@@ -797,6 +830,121 @@ footer .container .footer-info .privacy .link-border {
   .requirements .container .table-req .req-list .req-item {
     font-size: 14px;
     margin: 0 10px 10px 10px;
+  }
+  .quotes .container {
+    padding: 37px 15px 80px 15px;
+  }
+  .quotes .container .quotes-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .quotes .container .quotes-grid .quotes-text .text h2 {
+    font-size: 18px;
+  }
+  .quotes .container .quotes-grid .quotes-text .text h1 {
+    font-size: 33px;
+  }
+  .quotes .container .quotes-grid .quotes-text .text p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .special {
+    background: url(assets/img/bg-special-mb.png) center/cover no-repeat;
+    min-height: 515px;
+    max-height: 750px;
+    padding-right: 0;
+  }
+  .special .special-column .special-head {
+    padding-left: 190px;
+  }
+  .special .special-column .special-head h2 {
+    font-size: 18px;
+  }
+  .special .special-column .special-head h1 {
+    font-size: 33px;
+  }
+  .special .special-column .accordion-special .accordion {
+    max-width: 216px;
+    margin-left: auto;
+  }
+  .special .special-column .accordion-special .accordion .accordion-header .accordion-button {
+    font-size: 21px;
+  }
+  .special .special-column .accordion-special .accordion .accordion-body {
+    font-size: 14px;
+  }
+  .requirements {
+    min-height: 630px;
+    background: url(assets/img/bg-requirements-mb.png) center/cover no-repeat;
+  }
+  .requirements .container {
+    padding: 1px 15px;
+    margin-top: 90px;
+  }
+  .requirements .container .heading {
+    margin-bottom: 45px;
+  }
+  .requirements .container .heading h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .requirements .container .heading h1 {
+    font-size: 33px;
+    letter-spacing: 3px;
+  }
+  .requirements .container .table-req .req-list .req-item-head {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .requirements .container .table-req .req-list .req-item {
+    font-size: 14px;
+    margin: 0 10px 10px 10px;
+  }
+  .quotes .container .quotes-grid {
+    gap: 30px;
+    align-items: center;
+  }
+  .quotes .container .quotes-grid .quotes-flex {
+    gap: 20px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card {
+    width: 290px;
+    padding: 10px 10px 16px 10px;
+    min-height: 145px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card:first-child {
+    margin-left: 0;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card:last-child {
+    margin-left: 0;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info {
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info img {
+    width: 42px;
+    height: 42px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info .quotes-name h5 {
+    font-size: 18px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-info .quotes-name h4 {
+    font-size: 14px;
+  }
+  .quotes .container .quotes-grid .quotes-flex .quotes-card .quotes-item {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .quotes .container .quotes-grid .quotes-text .quotes-btn {
+    display: inline-block;
+    max-width: 216px;
+    padding: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=style.css.map */

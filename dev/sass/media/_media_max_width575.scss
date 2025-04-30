@@ -1,3 +1,133 @@
 @media screen and (max-width: 575px) {
+    .special {
+        background: url(assets/img/bg-special-mb.png) center/cover no-repeat;
+        min-height: 515px;
+        max-height: 750px;
+        padding-right: 0;
+        .special-column {
+            .special-head {
+                padding-left: 190px;
+                h2{
+                    font-size: 18px;
+
+                }
+                h1{
+                    font-size: 33px;
+
+                }
+            }
+            .accordion-special {
+                .accordion {
+                    max-width: 216px;
+                    margin-left: auto;
+                    .accordion-header {
+                        .accordion-button {
+                            font-size: 21px;
+                        }
+                    }
+                    .accordion-body {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .requirements {
+        min-height: 630px;
+        background: url(assets/img/bg-requirements-mb.png) center/cover no-repeat;
+        .container {
+            padding: 1px 15px;
+            margin-top: 90px;
+            .heading {
+                margin-bottom: 45px;
+                h2 {
+                    font-size: 18px;
+                    letter-spacing: 2px;
+                }
+                h1{
+                    font-size: 33px;
+                    letter-spacing: 3px;
+                }
+            }
+            .table-req {
+                .req-list {
+                    .req-item-head {
+                        font-size: 18px;
+                        margin: 10px;
+
+                    }
+                    .req-item {
+                        font-size: 14px;
+                        margin: 0 10px 10px 10px;
+
+                    }
+                }
+
+            }
+        }
+    }
+
+    .quotes {
+        .container {
+            .quotes-grid {
+                gap: 30px;
+                align-items: center;
+                .quotes-text {
+                    
+                }
+                .quotes-flex {
+                    gap: 20px;
+                    .quotes-card {
+                    width: 290px;  
+                    padding: 10px 10px 16px 10px;
+                    min-height: 145px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &:last-child {
+                        margin-left: 0;
+                    }
+                    .quotes-info {
+                        gap: 15px;
+                        margin-bottom: 15px;
+                        img {
+                            width: 42px;
+                            height: 42px;
+                        }
+                        .quotes-name {
+                            h5 {
+                                font-size: 18px;
+                            }
+                            h4 {
+
+                                font-size: 14px;
+                    
+                            }
+                        }
+                    }
+                    .quotes-item {
+                        font-size: 14px;
+                        margin-bottom: 15px;
+    
+                    }
+                }
+                
+            }
+                
+            }
+            
+        }
+    }
+    .quotes .container .quotes-grid .quotes-text .quotes-btn {
+        display: inline-block;
+        max-width: 216px;
+        padding: 15px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        
+        font-size: 14px;
+        
+    }
     
 }

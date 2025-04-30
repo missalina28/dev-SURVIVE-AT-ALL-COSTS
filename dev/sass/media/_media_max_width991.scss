@@ -159,17 +159,17 @@
     }
     .special {
         
-        height: 515px;
-        padding-right: 0;
+        min-height: 515px;
+        padding-right: 25px;
         .special-column {
             .special-head {
-                padding-left: 105px;
+                padding-left: 9px;
                 h2{
-                    font-size: 18px;
+                    font-size: 21px;
 
                 }
                 h1{
-                    font-size: 33px;
+                    font-size: 80px;
 
                 }
             }
@@ -179,30 +179,30 @@
                     margin-left: auto;
                     .accordion-header {
                         .accordion-button {
-                            font-size: 21px;
+                            font-size: 33px;
                         }
-                        .accordion-body {
-                            font-size: 14px;
-                        }
+                    }
+                    .accordion-body {
+                        font-size: 18px;
                     }
                 }
             }
         }
     }
     .requirements {
-        height: 630px;
-        background: url(assets/img/bg-requirements-mb.png) center/cover no-repeat;
+        
         
         .container {
-            padding: 1px 10px;
-            margin-top: 90px;
+            padding: 80px 15px;
             .heading {
                 margin-bottom: 45px;
                 h2 {
                     font-size: 18px;
+                    letter-spacing: 2px;
                 }
                 h1{
                     font-size: 33px;
+                    letter-spacing: 3px;
                 }
             }
             .table-req {
@@ -219,6 +219,28 @@
                     }
                 }
 
+            }
+        }
+    }
+    .quotes {
+        .container {
+            padding: 37px 15px 80px 15px;
+            .quotes-grid {
+                display: flex;
+                flex-direction: column;
+                .quotes-text {
+                    .text {
+                        h2{
+                            font-size: 18px;
+                        }
+                        h1{
+                            font-size: 33px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
             }
         }
     }
