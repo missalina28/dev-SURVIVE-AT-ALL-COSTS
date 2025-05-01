@@ -37,8 +37,24 @@
             }
                 
             }
-            .quotes-text {
-
+            
+        }
+    }
+    footer {
+        .container {
+            .footer-templates {
+                .footer-logo {
+                    img {
+                     width: 70px;
+                     height: 70px;
+                    }
+                }
+                .templates-list {
+                    gap: 35px;
+                }
+                .social-list {
+                    gap: 35px;
+                }
             }
         }
     }

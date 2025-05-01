@@ -281,5 +281,37 @@
             }
         }
     }
+    footer {
+        .container {
+            .footer-templates {
+                .footer-logo {
+                    img {
+                     width: 40px;
+                     height: 40px;
+                    }
+                }
+                .templates-list {
+                    gap: 30px;
+                    .templates-item {
+                        font-size: 10px;
+                    }
+                }
+                .social-list {
+                    gap: 30px;
+                    .social-item {
+                        width: 21px;
+                        height: 16px;
+                    }
+                }
+            }
+            .footer-info {
+                .privacy {
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
     
 }
